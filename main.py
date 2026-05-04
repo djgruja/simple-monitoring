@@ -1,5 +1,10 @@
+import requests
+import schedule
+import time
+
+
 SLACK_BOT_TOKEN = ""
-SLACK_CHANNEL_ID = "C0B1EP1JCLE"
+SLACK_CHANNEL_ID = "C0B1Y2JCSSD"
 CHECK_INTERVAL_MINUTES = 5
 
 def send_slack_alert(status_code):
