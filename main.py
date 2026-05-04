@@ -2,7 +2,7 @@ import requests
 import schedule
 import time
 
-
+TARGET_URL = "http://178.105.96.53:777/greeting"
 SLACK_BOT_TOKEN = ""
 SLACK_CHANNEL_ID = "C0B1Y2JCSSD"
 CHECK_INTERVAL_MINUTES = 5
